@@ -1,0 +1,127 @@
+
+/* Classic academic website design */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.8;
+    color: #333333;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+header {
+    background: #17365d;
+    color: #ffffff;
+    padding: 64px 0;
+    border-bottom: 4px solid #b59a62;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0 0 12px;
+}
+
+header p {
+    margin: 4px 0;
+    color: #e4eaf1;
+    font-size: 1.05rem;
+}
+
+nav {
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #17365d;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #927644;
+}
+
+section {
+    padding: 32px 0;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+h2 {
+    color: #17365d;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin: 0 0 18px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #315b84;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #777777;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    header {
+        padding: 44px 0;
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
+
+    nav .container {
+        gap: 12px 18px;
+    }
+
+    section {
+        padding: 26px 0;
+    }
+}
