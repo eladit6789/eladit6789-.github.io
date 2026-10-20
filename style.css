@@ -1,5 +1,10 @@
 
-/* Classic academic website design */
+/* =========================================
+   SCHOLARLY ELEGANCE
+   Academic Website — Elad Itzhaki
+   ========================================= */
+
+/* General layout */
 
 * {
     box-sizing: border-box;
@@ -7,44 +12,53 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 85px;
 }
 
 body {
     margin: 0;
     font-family: Georgia, "Times New Roman", serif;
-    line-height: 1.8;
-    color: #333333;
-    background: #ffffff;
+    font-size: 17px;
+    line-height: 1.85;
+    color: #382f2d;
+    background: #f8f4ec;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 32px;
 }
 
+/* Header */
+
 header {
-    background: #17365d;
-    color: #ffffff;
-    padding: 64px 0;
-    border-bottom: 4px solid #b59a62;
+    background: #f8f4ec;
+    color: #382c2b;
+    padding: 76px 0 52px;
+    border-bottom: 1px solid #dfd2c7;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.7rem, 6vw, 4rem);
     font-weight: normal;
-    margin: 0 0 12px;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    margin: 0 0 16px;
 }
 
 header p {
-    margin: 4px 0;
-    color: #e4eaf1;
+    color: #75635e;
+    margin: 3px 0;
     font-size: 1.05rem;
 }
 
+/* Navigation */
+
 nav {
-    background: #ffffff;
-    border-bottom: 1px solid #dddddd;
+    background: #f8f4ec;
+    border-bottom: 1px solid #dfd2c7;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -53,75 +67,142 @@ nav {
 nav .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    align-items: center;
+    gap: 10px 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 nav a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     font-family: Arial, sans-serif;
-    font-size: 0.9rem;
-    color: #17365d;
+    font-size: 0.82rem;
+    letter-spacing: 0.4px;
+    color: #7a263a;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a i {
+    color: #7a263a;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    color: #927644;
+    color: #a14d5c;
 }
 
+nav a:hover i {
+    transform: translateY(-2px);
+    color: #a14d5c;
+}
+
+/* Main sections */
+
 section {
-    padding: 32px 0;
+    padding: 38px 0;
     margin: 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e3d8ce;
 }
 
 h2 {
-    color: #17365d;
-    font-size: 1.8rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
     font-weight: normal;
-    margin: 0 0 18px;
+    line-height: 1.3;
+    color: #7a263a;
+    margin: 0 0 22px;
 }
 
 p {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
+}
+
+strong {
+    color: #493432;
+}
+
+ul {
+    padding-left: 26px;
 }
 
 li {
-    margin-bottom: 8px;
+    padding-left: 5px;
+    margin-bottom: 7px;
 }
 
 a {
-    color: #315b84;
+    color: #7a263a;
+    transition: color 0.2s ease;
 }
 
-footer {
-    text-align: center;
-    padding: 30px 20px;
-    color: #777777;
-    font-family: Arial, sans-serif;
-    font-size: 0.85rem;
+a:hover {
+    color: #a14d5c;
 }
+
+/* Icons inside content */
+
+section h2 i {
+    margin-right: 10px;
+    font-size: 0.85em;
+    color: #9a5864;
+}
+
+/* Footer */
+
+footer {
+    padding: 34px 20px;
+    text-align: center;
+    color: #86766e;
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+}
+
+footer i {
+    margin: 0 5px;
+    color: #7a263a;
+}
+
+/* Keyboard accessibility */
+
+a:focus-visible {
+    outline: 2px solid #7a263a;
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+/* Mobile layout */
 
 @media (max-width: 600px) {
     .container {
-        padding: 0 20px;
+        padding: 0 22px;
     }
 
     header {
-        padding: 44px 0;
+        padding: 52px 0 38px;
     }
 
     header h1 {
-        font-size: 2.3rem;
+        letter-spacing: -0.8px;
     }
 
     nav .container {
         gap: 12px 18px;
     }
 
+    nav a {
+        font-size: 0.8rem;
+    }
+
     section {
-        padding: 26px 0;
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 1.7rem;
     }
 }
