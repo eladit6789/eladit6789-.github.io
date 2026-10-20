@@ -1,10 +1,9 @@
-
 /* =========================================
    SCHOLARLY ELEGANCE
    Academic Website — Elad Itzhaki
    ========================================= */
 
-/* General layout */
+/* 1. General layout */
 
 * {
     box-sizing: border-box;
@@ -30,7 +29,7 @@ body {
     padding: 0 32px;
 }
 
-/* Header */
+/* 2. Header */
 
 header {
     background: #f8f4ec;
@@ -54,7 +53,7 @@ header p {
     font-size: 1.05rem;
 }
 
-/* Navigation */
+/* 3. Navigation bar */
 
 nav {
     background: #f8f4ec;
@@ -85,10 +84,12 @@ nav a {
     transition: color 0.2s ease;
 }
 
+/* Navigation icons */
+
 nav a i {
     color: #7a263a;
-    font-size: 0.9rem;
-    transition: transform 0.2s ease;
+    font-size: 0.95rem;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
 nav a:hover {
@@ -96,11 +97,11 @@ nav a:hover {
 }
 
 nav a:hover i {
-    transform: translateY(-2px);
     color: #a14d5c;
+    transform: translateY(-2px);
 }
 
-/* Main sections */
+/* 4. Main content sections */
 
 section {
     padding: 38px 0;
@@ -116,6 +117,18 @@ h2 {
     color: #7a263a;
     margin: 0 0 22px;
 }
+
+/* Icons beside section headings */
+
+section h2 i {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.82em;
+    color: #9a5864;
+    vertical-align: 2px;
+}
+
+/* Paragraphs and lists */
 
 p {
     margin-top: 0;
@@ -135,6 +148,8 @@ li {
     margin-bottom: 7px;
 }
 
+/* Links */
+
 a {
     color: #7a263a;
     transition: color 0.2s ease;
@@ -144,15 +159,14 @@ a:hover {
     color: #a14d5c;
 }
 
-/* Icons inside content */
+/* 5. Contact section icons */
 
-section h2 i {
-    margin-right: 10px;
-    font-size: 0.85em;
-    color: #9a5864;
+#contact p i {
+    color: #7a263a;
+    margin-right: 7px;
 }
 
-/* Footer */
+/* 6. Footer */
 
 footer {
     padding: 34px 20px;
@@ -162,12 +176,11 @@ footer {
     font-size: 0.82rem;
 }
 
-footer i {
-    margin: 0 5px;
-    color: #7a263a;
+footer p {
+    margin: 0;
 }
 
-/* Keyboard accessibility */
+/* 7. Keyboard accessibility */
 
 a:focus-visible {
     outline: 2px solid #7a263a;
@@ -175,7 +188,7 @@ a:focus-visible {
     border-radius: 2px;
 }
 
-/* Mobile layout */
+/* 8. Mobile layout */
 
 @media (max-width: 600px) {
     .container {
@@ -196,6 +209,10 @@ a:focus-visible {
 
     nav a {
         font-size: 0.8rem;
+    }
+
+    nav a i {
+        font-size: 0.9rem;
     }
 
     section {
