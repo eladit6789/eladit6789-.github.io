@@ -353,7 +353,7 @@ a:focus-visible {
 
 @media (max-width: 600px) {
     .academic-banner img {
-        width: 90% !important;
+        width: 100% !important;
     }
 }
 
