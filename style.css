@@ -361,7 +361,7 @@ a:focus-visible {
 /* Make the banner image smaller */
 
 .academic-banner img {
-    width: 60% !important;
+    width: 80% !important;
     height: auto !important;
     object-fit: contain !important;
 }
