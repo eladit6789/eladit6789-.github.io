@@ -358,3 +358,17 @@ a:focus-visible {
 }
 
 
+/* Make the banner image smaller */
+
+.academic-banner img {
+    width: 30% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+@media (max-width: 600px) {
+    .academic-banner img {
+        width: 75% !important;
+    }
+}
+
