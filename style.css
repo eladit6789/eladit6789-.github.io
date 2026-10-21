@@ -251,3 +251,26 @@ a:focus-visible {
         font-size: 1.7rem;
     }
 }
+
+/* Academic banner */
+
+.academic-banner {
+    width: 100%;
+    overflow: hidden;
+    background: #f8f4ec;
+}
+
+.academic-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 600px) {
+    .academic-banner img {
+        max-height: 200px;
+    }
+}
