@@ -252,10 +252,12 @@ a:focus-visible {
     }
 }
 
-/* Academic banner */
+/* Full-width academic banner */
 
 .academic-banner {
+    display: block;
     width: 100%;
+    height: 280px;
     overflow: hidden;
     background: #f8f4ec;
 }
@@ -263,14 +265,17 @@ a:focus-visible {
 .academic-banner img {
     display: block;
     width: 100%;
-    height: auto;
-    max-height: 360px;
+    height: 100%;
+    max-height: none;
     object-fit: cover;
     object-position: center;
 }
 
+/* Responsive banner */
+
 @media (max-width: 600px) {
-    .academic-banner img {
-        max-height: 200px;
+    .academic-banner {
+        height: 160px;
     }
 }
+
