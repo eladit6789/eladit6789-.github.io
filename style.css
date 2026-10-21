@@ -327,4 +327,34 @@ a:focus-visible {
 }
 
 
+/* Display a smaller, centered banner without cropping */
+
+.academic-banner {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #f8f4ec !important;
+}
+
+.academic-banner img {
+    display: block !important;
+    width: 50% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    padding: 0 !important;
+}
+
+@media (max-width: 600px) {
+    .academic-banner img {
+        width: 90% !important;
+    }
+}
+
 
