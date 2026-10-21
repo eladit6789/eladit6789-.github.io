@@ -343,7 +343,7 @@ a:focus-visible {
 
 .academic-banner img {
     display: block !important;
-    width: 50% !important;
+    width: 100% !important;
     max-width: 100% !important;
     height: auto !important;
     max-height: none !important;
