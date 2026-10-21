@@ -218,6 +218,34 @@ a:focus-visible {
     section {
         padding: 30px 0;
     }
+   
+/* Publications */
+
+.publication-list {
+    padding-left: 28px;
+}
+
+.publication-list li {
+    padding-left: 8px;
+    margin-bottom: 22px;
+    line-height: 1.8;
+}
+
+.publication-list em {
+    color: #493432;
+}
+
+.publication-list strong {
+    color: #7a263a;
+}
+
+.publication-note {
+    color: #75635e;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 8px;
+}
+
 
     h2 {
         font-size: 1.7rem;
