@@ -1,8 +1,11 @@
-
 ---
 layout: home
 title: Elad Itzhaki
 ---
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="/assets/academic-banner.png" alt="Scientific illustration of the ribosome and RNA" style="width: 100%; max-width: 900px; height: auto;">
+</div>
 
 # Elad Itzhaki
 
