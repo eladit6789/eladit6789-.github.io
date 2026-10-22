@@ -30,7 +30,7 @@ My research investigates how the ribosome's mRNA entry channel participates in t
 
 ## Publications
 
-1. Bachar, A., **Itzhaki, E.**, Gleizer, S., Shamshoom, M., Milo, R., & Antonovsky, N. (2020). Point mutations in topoisomerase I alter the mutation spectrum in *E. coli* and impact the emergence of drug resistance genotypes. *Nucleic Acids Research, 48*(2), 761–769.
+1. Bachar, A., **Itzhaki, E.**, Gleizer, S., Shamshoom, M., Milo, R., & Antonovsky, N. (2020). [Point mutations in topoisomerase I alter the mutation spectrum in E. coli and impact the emergence of drug resistance genotypes](https://doi.org/10.1093/nar/gkz1100) *Nucleic Acids Research, 48*(2), 761–769.
 
 2. Zelcbuch, L., Yitzhaki, E., Nissan, O., Gidron, E., Buchshtab, N., Kario, E., et al. (2021). Luminescent phage-based detection of *Klebsiella pneumoniae*: from engineering to diagnostics. *Pharmaceuticals, 14*(4), 347.
 
