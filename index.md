@@ -1,8 +1,9 @@
+
 ---
 layout: home
 title: Elad Itzhaki
 ---
-
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <div style="text-align: center; margin-bottom: 2rem;">
   <img src="/assets/academic-banner.png" alt="Scientific illustration of the ribosome and RNA" style="width: 100%; max-width: 900px; height: auto;">
 </div>
