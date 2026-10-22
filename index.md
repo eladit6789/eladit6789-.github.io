@@ -34,9 +34,9 @@ My research investigates how the ribosome's mRNA entry channel participates in t
 
 2. Zelcbuch, L., Yitzhaki, E., Nissan, O., Gidron, E., Buchshtab, N., Kario, E., et al. (2021). [Luminescent phage-based detection of Klebsiella pneumoniae: from engineering to diagnostics.](https://doi.org/10.3390/ph14040347) *Pharmaceuticals, 14*(4), 347.
 
-3. Havkin-Solomon, T.†, **Itzhaki, E.†**, Joffe, N., Reuven, N., Shaul, Y., & Dikstein, R. (2023). Selective translational control of cellular and viral mRNAs by RPS3 mRNA binding. *Nucleic Acids Research, 51*(9), 4208–4222.
+3. Havkin-Solomon, T.†, **Itzhaki, E.†**, Joffe, N., Reuven, N., Shaul, Y., & Dikstein, R. (2023). [Selective translational control of cellular and viral mRNAs by RPS3 mRNA binding.](https://doi.org/10.1093/nar/gkad269) *Nucleic Acids Research, 51*(9), 4208–4222.
 
-4. Bahat, A., **Itzhaki, E.**, Weiss, B., Tolmasov, M., Tsoory, M., Kuperman, Y., et al. (2024). Lowering mutant huntingtin by small molecules relieves Huntington’s disease symptoms and progression. *EMBO Molecular Medicine*, 1–24.
+4. Bahat, A., **Itzhaki, E.**, Weiss, B., Tolmasov, M., Tsoory, M., Kuperman, Y., et al. (2024). [Lowering mutant huntingtin by small molecules relieves Huntington’s disease symptoms and progression.](https://doi.org/10.1038/s44321-023-00020-y) *EMBO Molecular Medicine*, 1–24.
 
 † Joint first authors.
 
