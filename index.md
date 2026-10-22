@@ -10,7 +10,7 @@
 # Elad Itzhaki
 
 **PhD Student in Life Science**  
-Laboratory of Prof. Rivka Dikstein   
+Laboratory of [Prof. Rivka Dikstein](https://www.weizmann.ac.il/Biomolecular_Sciences/dikstein/)   
 Biomolecular Science Department   
 Weizmann Institute of Science  
 
