@@ -1,7 +1,6 @@
 
 ---
-layout: home
-title: Elad Itzhaki
+
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <div style="text-align: center; margin-bottom: 2rem;">
